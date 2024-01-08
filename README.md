@@ -115,7 +115,7 @@ sudo rabbitmqctl cluster_status
 ![3-5_vm1_queue.png](https://github.com/Zikin18/SYS-25_11.04/blob/master/3-5_vm1_queue.png)
 ![3-6_vm2_queue.png](https://github.com/Zikin18/SYS-25_11.04/blob/master/3-6_vm2_queue.png)
 
-Для чтения очереди с другого сервера в скрип consumer.py пришлось внести изменения чтобы добавить учетные данные пользователя
+Для чтения очереди с другого сервера в скрипт consumer.py пришлось внести изменения чтобы добавить учетные данные пользователя
 
 ```
 #!/usr/bin/env python
